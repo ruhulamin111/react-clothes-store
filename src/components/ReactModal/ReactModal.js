@@ -35,9 +35,9 @@ const ReactModal = ({ product }) => {
                                 {/*body*/}
                                 <div className="relative p-6 flex-auto">
                                     <div className='flex justify-center'>
-                                        <img className='w-2/5 ' src={image} alt="" />
+                                        <img className='w-1/5 ' src={image} alt="" />
                                     </div>
-                                    <p className="my-4 text-slate-500 text-lg leading-relaxed font-semibold">Name: {category}
+                                    <p className="my-4 text-slate-500 text-lg leading-relaxed font-semibold ">Name: {category}
                                     </p>
                                     <p className="my-4 text-slate-500 text-lg leading-relaxed font-semibold">Price: {price}
                                     </p>
