@@ -21,7 +21,7 @@ const Product = ({ product, cartUpdate }) => {
                 >Add to Cart</button>
                 {/* <button className='bg-red-600 p-2 rounded-lg text-white hover:bg-red-700'>Delete</button> */}
                 {/* <button className='bg-green-600 p-2 rounded-lg text-white hover:bg-green-700'>Details</button> */}
-                <ReactModal></ReactModal>
+                <ReactModal product={product}></ReactModal>
 
             </div>
 
