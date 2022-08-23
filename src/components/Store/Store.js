@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import './Store.css'
 
-const Store = () => {
+const Store = ({ cartUpdate }) => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
         fetch('https://fakestoreapi.com/products')
@@ -16,6 +16,7 @@ const Store = () => {
                 products.map(product => <Product
                     key={product.id}
                     product={product}
+                    cartUpdate={cartUpdate}
                 ></Product>)
             }
 
